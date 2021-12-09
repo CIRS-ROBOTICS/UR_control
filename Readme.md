@@ -14,10 +14,17 @@ This is a library based on the UR robot and other packages will continued to be 
 This implementation requires the following dependencies (tested on Ubuntu 16.04 LTS, Ubuntu 16.04 LTS and Ubuntu 20.04 LTS):
 * Python 3
 You can quickly install/update these dependencies by running the following (replace `pip` with `pip3` for Python 3):
-  `python setup.py install`
+
+    ```shell
+    python setup.py install
+    ```
+
 If you use need to use realsense, you can download from the official library([RealSense](https://github.com/IntelRealSense/librealsense)).
 If you want to control UR5/UR3 Robot, you can rtde packages([ur_-rtde](https://sdurobotics.gitlab.io/ur_rtde/installation/installation.html)).You can also quickly install rtde by this way:
- `pip install --user ur_rtde`
+
+    ```shell
+    pip install --user ur_rtde
+    ```
 
 ## Attention
  If you want to control Gripper via RTU, you should first run
