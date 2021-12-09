@@ -111,7 +111,7 @@ class URRobot(Robot):
     def open_gripper(self):
         self.gripper.move_and_wait_for_pos(0, 255, 255) # (distance, speed, forece)
 
-    def move_to(self, tool_position, tool_orientation, acc=None, vel=None):
+    def move_to(self, tool_position, tool_orientation, acc=None, vel=None): # move robot
         if acc is None:
             acc = self._default_tool_acc
         if vel is None:
