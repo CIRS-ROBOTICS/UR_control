@@ -26,9 +26,9 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04 
     ```
 
 ## Attention
- If you want to control Gripper via RTU, you should first run
+ * If you want to control Gripper via RTU, you should first run
  `sudo chmod +777 /dev/ttyUSB0`
- If your background is black, you shoud leave the edge of calibrate board blank.
+ * If your background is black, you shoud leave the edge of calibrate board blank.
 
 ## Calibrating Camera Extrinsics
 We provide a simple calibration script to estimate camera extrinsics with respect to robot base coordinates. You can choose different checkerboards and change the variables `checkerboard_size`.
