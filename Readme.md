@@ -17,6 +17,10 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04 
     ```shell
     python setup.py install
     ```
+    or
+    ```shell
+    cd ./UR_control & pip install [-r] .
+    ```
 
 * If you need to use realsense camera, you can download from the official library([RealSense](https://github.com/IntelRealSense/librealsense)).
 * If you want to control UR5/UR3 Robot, you can download rtde packages([ur_rtde](https://sdurobotics.gitlab.io/ur_rtde/installation/installation.html)).You can also quickly install rtde by this way:
