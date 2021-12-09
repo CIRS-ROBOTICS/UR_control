@@ -28,7 +28,7 @@ def press_any_key(msg):
 # User options (change me)  ***
 # --------------- Setup options ---------------
 robot_ip = '192.168.1.102' # IP and port to robot arm as TCP client
-workspace_limits = np.asarray([[-0.88, -0.58], [-0.315, -0.115], [0.2, 0.35]]) # Cols: min max, Rows: x y z (define workspace limits in robot coordinates)需要具体再测一些
+workspace_limits = np.asarray([[-0.88, -0.58], [-0.315, -0.115], [0.2, 0.35]]) # Cols: min max, Rows: x y z (define workspace limits in robot coordinates)
 calib_grid_step = 0.05
 checkerboard_offset_from_tool = [0,0,0] # Measure the offset from the center point of the checkerboard to the tool center point in the robot coordinates
 tool_orientation = [1.326,-1.233,-1.117] # [0,-2.22,2.22] # [2.22,2.22,0] maintain angle of the gripper during calibration
