@@ -12,8 +12,7 @@ This is a library based on the UR robot and other packages will continued to be 
 
 ## Installation
 This implementation requires the following dependencies (tested on Ubuntu 16.04 LTS, Ubuntu 18.04 LTS and Ubuntu 20.04 LTS):
-* Python 3
-* You can quickly install/update these dependencies by running the following (replace `pip` with `pip3` for Python 3):
+* You can quickly install/update these dependencies by running the following:
 
     ```shell
     python setup.py install
