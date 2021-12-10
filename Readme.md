@@ -19,7 +19,7 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04 
     ```
     or
     ```shell
-    cd ./UR_control & pip install [-r] .
+    cd ./UR_control & pip install [-e] .
     ```
 
 * If you need to use realsense camera, you can download from the official library([RealSense](https://github.com/IntelRealSense/librealsense)).
